@@ -2,30 +2,23 @@
 
 **Integrante:** Myrka Salazar
 
-## ¿Qué Tan Fácil o Difícil Fue Identificar Los Actores y Sus Permisos Reales a Partir del Código, Comparado con Solo Leer Una Descripción del Sistema?
+## ¿Qué Requerimientos del Proceso Real de Residencia En Su Instituto No Cubre Este Sistema?
 
-Fue más difícil de lo que esperaba. Al principio, con solo ver los cinco archivos de menú (menu.php, menuAlumno.php, menuAcademico.php, 
-menuIndustrial.php, menuJefe.php) pensé que ya tenía identificados todos los permisos de cada actor, porque cada menú mostraba claramente qué 
-opciones veía cada rol. Sin embargo, al construir el diagrama de casos de uso me di cuenta de que había hecho suposiciones (como que "gestionar" y 
-"consultar" eran cosas distintas) que no estaban realmente sustentadas en el código, sino en cómo yo interpretaba los nombres de las cosas. Leer una 
-descripción del sistema (o incluso los menús) da una idea general, pero solo revisando el código de las vistas y controladores se puede confirmar 
-qué hace el sistema de verdad.
+Comparando con la documentación oficial del departamento (el calendario de Residencias Profesionales y los formatos como el código de ética y la solicitud de residencia), el sistema no automatiza los pasos que requieren firma física: la expedición de cartas de presentación, la recepción de cartas de aceptación de la empresa, la firma del código de ética y la carta de confidencialidad, ni la conformidad final de la empresa sobre el proyecto entregado. 
+El sistema solo permite subir estos documentos ya firmados en PDF como evidencia (a través de Carpetas), pero no genera, envía ni gestiona la firma de ninguno de ellos. Tampoco encontré un módulo donde la empresa capture directamente su conformidad dentro del sistema.
 
-## ¿Qué Diferencia Encontraste Entre Lo Que "Parecía" Un Permiso y Lo Que El Código Realmente Hacía (El Caso de "Usuarios" y Quién Puede Crear Qué Rol)?
+## ¿Qué Tan Confiable es Recuperar Requerimientos a Partir del Código? ¿Qué Se Pierde?
 
-Al principio supuse que Admin, Asesor Académico y Jefe tenían permisos distintos sobre Usuarios: pensé que unos "gestionaban" (crear, editar, 
-eliminar) y otros solo "consultaban". Pero al revisar el archivo usuarios.php encontré evidencia real de que los tres pueden editar y 
-eliminar cualquier usuario por igual; la única diferencia real está en qué roles puede crear cada uno (Admin puede crear cualquier rol incluyendo 
-Admin y Jefe; Asesor Académico y Jefe solo pueden crear Alumno, Asesor Académico o Asesor Industrial, pero no Admin ni Jefe). También encontré 
-algo que no esperaba: el código expulsa directamente a Alumno y Asesor Industrial de esa vista si intentan entrar por URL, algo que no se ve 
-en ningún menú, solo revisando el archivo completo.
+Es razonablemente confiable para saber qué hace el sistema actualmente, pero no es suficiente por sí solo. Durante esta práctica varias veces tuve 
+que corregir suposiciones que parecían lógicas pero que el código no respaldaba: por ejemplo, pensé que había una diferencia entre "gestionar" 
+y "consultar" usuarios según el rol, y al revisar usuarios.php descubrí que la diferencia real estaba en qué roles se pueden crear, no en editar/eliminar. 
+Lo que se pierde al recuperar requerimientos solo del código es el "por qué": el código muestra qué hace el sistema, pero no explica la intención original del cliente, decisiones que se descartaron, o reglas de negocio que quedaron a medias (como si de verdad se valida en el servidor que un Asesor Académico no pueda crear un usuario Admin, o solo se oculta esa opción en el formulario). Esa intención solo se puede confirmar preguntando directamente al personal del departamento.
 
-## ¿Por Qué Es Importante Escribir Criterios de Aceptación Verificables En Una Historia de Usuario, En Lugar de Solo La Frase "Como... quiero... para..."?
+## Si Los Dos Equipos Obtienen Listas Distintas, ¿Cómo Decidirían Cuál Es La Correcta?
 
-Porque la frase "Como... quiero... para..." explica la intención general, pero no dice cómo saber si esa funcionalidad ya está bien hecha o no. Los 
-criterios de aceptación (en formato Dado/Cuando/Entonces) obligan a pensar en casos concretos, incluyendo qué pasa cuando algo sale mal (por ejemplo, 
-subir un archivo que no es PDF, o intentar calificar a un alumno que no me corresponde). Esto también ayuda a detectar, como nos pasó en esta 
-práctica, posibles huecos de seguridad o validaciones que el código debería tener pero que no confirmamos si realmente existen 
-(como si el formulario de crear usuario solo oculta opciones en el HTML o si el servidor también las bloquea).
+Ninguna lista sería automáticamente "la correcta" solo por ser diferente; lo primero sería comparar ambas contra la evidencia directa del código 
+(como hicimos con usuarios.php), ya que ahí está el comportamiento real del sistema y no una interpretación. Si after revisar el código ambos 
+equipos siguen en desacuerdo en algo que el código no aclara del todo (como una regla de negocio implícita), lo correcto sería consultarlo con 
+el personal del departamento de Servicio Social y Residencia Profesional, que son quienes conocen el proceso real, en lugar de asumir que un equipo tiene automáticamente la razón sobre el otro.
 
 Firma: Myrka<3

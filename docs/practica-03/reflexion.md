@@ -21,4 +21,4 @@ Ninguna lista sería automáticamente "la correcta" solo por ser diferente; lo p
 equipos siguen en desacuerdo en algo que el código no aclara del todo (como una regla de negocio implícita), lo correcto sería consultarlo con 
 el personal del departamento de Servicio Social y Residencia Profesional, que son quienes conocen el proceso real, en lugar de asumir que un equipo tiene automáticamente la razón sobre el otro.
 
-Firma: Myrka<3
+Firma del Integrante: Myrka<3

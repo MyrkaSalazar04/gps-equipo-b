@@ -198,6 +198,5 @@
 | id | int (PK) | Identificador único |
 | PDF | text | Nombre del archivo (ej. código de ética) |
 | nombre | text | Nombre descriptivo del documento |
----
 
-**Nota general:** ningún `FOREIGN KEY` está declarado formalmente en la base de datos (confirmado al revisar el `.sql` completo); todas las relaciones marcadas como FK son por convención de nombres de columna, no por integridad referencial real de MySQL.
+---

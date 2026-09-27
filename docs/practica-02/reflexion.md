@@ -28,4 +28,4 @@ se van a usar, lo cual no es eficiente y hace que cualquier error en un solo arc
 Además, el hecho de que no se use ningún framework moderno significa que un desarrollador nuevo tiene que entender las convenciones propias del proyecto 
 en vez de apoyarse en documentación estándar de un framework conocido.
 
-Firma: Myrka<3
+Firma del Integrante: Myrka<3

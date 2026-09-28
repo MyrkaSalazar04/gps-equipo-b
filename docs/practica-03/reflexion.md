@@ -1,6 +1,6 @@
 # Reflexión - Práctica 3
 
-**Integrante:** Myrka Salazar, Jehyson Martínez, José Martínez
+**Integrantes:** Myrka Salazar, Jehyson Martínez, José Martínez
 
 ## ¿Qué Requerimientos del Proceso Real de Residencia En Su Instituto No Cubre Este Sistema?
 

@@ -1,0 +1,10 @@
+﻿2021-06-21 | cbarreral | 2
+2021-06-19 | cbarreral | restructura por segunda vez
+2021-06-11 | cbarreral | modulos de inicio
+2021-06-09 | cbarreral | modulo info residencia
+2021-04-09 | cbarreral | correccion de bugs en el modulo constancia
+2021-04-08 | cbarreral | Modulo de Observaciones en carpetas
+2021-04-08 | cbarreral | rediseño moderno e incorporación del modulo de observaciones (Chat)
+2021-03-29 | cbarreral | integración de la clase phpmailer
+2021-03-27 | Carlos Alberto Barrera Lugo | Implantación de notificaciones mediante correo
+2021-03-27 | Carlos Alberto Barrera Lugo | Initial commit

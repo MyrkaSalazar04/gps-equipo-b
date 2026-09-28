@@ -1,66 +1,77 @@
-# Ronda Delphi — Práctica 5
+# Práctica 5 – Cierre Grupal: Método Delphi
 
-**Sistema:** Control Escolar de Servicio Social y Residencia Profesional
-**Integrante:** Myrka Salazar
+**Grupo:** Equipos A y B
+**Moderador:** Jesús Alberto Garza Ortega
+**Registró:** Daina Vega, Jesús Medellín, Jesús Alejandro Ramírez (QA, Equipo A) y Myrka Salazar, Jehyson Martínez, José Martínez (Equipo B)
+**Fecha:** 30 de septiembre 2026
 
----
+**Nota Sobre La Composición de Los Equipos:** el Equipo A trabajó con 3 integrantes;
+el Equipo B fue trabajado de forma individual por un solo alumno. Por esto, en las
+rondas de estimación secreta (secciones 2 y 3), el Equipo A aporta 3 estimaciones
+y el Equipo B aporta 1. Esto se documenta así para que quede claro el contexto al
+calcular mínimos, máximos y medianas.
 
-## Nota Sobre La Adaptación
+## 1. Cifras Presentadas Por Cada Equipo
 
-El manual original diseña esta práctica para que **dos equipos de 3 integrantes**
-analicen el mismo sistema de forma independiente y luego, en un cierre grupal,
-comparen sus cifras mediante una ronda Delphi: cada persona estima en secreto,
-se discuten las diferencias, y se repite hasta llegar a una sola cifra de
-consenso.
+| Equipo | KLOC | PF | Esfuerzo COCOMO (PM) | Esfuerzo PF (PM) | Tiempo (meses) | Costo total (MXN) |
+|---|---|---|---|---|---|---|
+| A | 8.66 | 459 | 23.15 | 23.81 | 8.2 | $388,209 – $399,334 |
+| B | 11.039 | 249 | 29.87 | 10.89 | 9.09 * | $204,257.81 – $560,129.87 |
 
-Al realizar esta práctica **de forma individual**, no existe una segunda
-estimación independiente con la cual contrastar la mía, que es la base de la
-técnica Delphi (que depende de tener múltiples estimadores para reducir el
-sesgo individual). Por lo tanto, el ejercicio tal como está diseñado no puede
-reproducirse exactamente.
+*\* El Equipo B solo calculó tiempo (T) con la fórmula de COCOMO; el método de
+Puntos de Función se convirtió directamente a personas-mes, sin una fórmula de
+tiempo de calendario independiente.*
 
-**Pendiente: confirmar con el docente (Mtro. Jesús Alberto Garza Ortega) cómo
-espera que se adapte este cierre para trabajo individual** — por ejemplo:
-- Comparar mi cifra contra la de otro compañero que también trabaje solo.
-- Realizar una "Delphi personal" en dos momentos distintos (ver abajo), como
-  aproximación parcial al espíritu del ejercicio (aunque no sustituye la
-  comparación entre estimadores independientes).
-- Omitir formalmente este paso y documentarlo como tal.
+## 2. Primera Ronda (Estimaciones Secretas)
 
----
+Cada Alumno Anotó en un papel, sin consultar a Nadie, Su Estimación final de
+**costo total** y **tiempo**.
 
-## Mis Cifras de Estimación (Práctica 5)
+| Alumno | Equipo | Costo (MXN) | Tiempo (meses) | Justificación breve |
+|---|---|---|---|---|
+| [Daina Vega] | A | | | |
+| [Jesús Medellín] | A | | | |
+| [Jesús Ramírez] | A | | | |
+| [Myrka Salazar] | B | | | |
+| **Mínimo** | | | | |
+| **Máximo** | | | | |
+| **Mediana** | | | | |
 
-| Método | Esfuerzo (personas-mes) |
+### Discusión de Diferencias
+Los Alumnos Con La Estimación Más Alta y Más Baja Explicaron Sus Razones.
+
+- Argumentos a Favor de Una Cifra Mayor:
+- Argumentos a Favor de Una Cifra Menor:
+- Diferencias de conteo entre equipos (LOC, PF, salario, productividad):
+  - El Equipo A obtuvo 8.66 KLOC y 459 PF; el Equipo B obtuvo 11.039 KLOC y 249 PF.
+    La diferencia en PF es notable (459 vs 249) a pesar de tener un KLOC parecido —
+    vale la pena discutir en la sesión qué criterios de clasificación (EI/EO/EQ/
+    ILF/EIF) usó cada equipo, ya que probablemente expliquen buena parte de la
+    diferencia.
+  - El rango de costo del Equipo A es mucho más angosto ($388,209–$399,334, ~3%
+    de diferencia entre métodos) que el del Equipo B ($204,257–$560,129, ~174%
+    de diferencia). Esto sugiere que la tasa de productividad (hrs/PF) o el
+    salario base usados por cada equipo fueron distintos, y es un buen punto
+    para poner en común en la sesión.
+
+## 3. Segunda Ronda
+
+| Alumno | Equipo | Costo (MXN) | Tiempo (meses) |
+|---|---|---|---|
+| [Daina Vega] | A | | |
+| [Jesús Medellín] | A | | |
+| [Jesús Ramírez] | A | | |
+| [Myrka Salazar] | B | | |
+| **Mediana** | | | |
+
+## 4. Cifra de Consenso
+
+| Concepto | Valor acordado |
 |---|---|
-| LOC + COCOMO | 29.87 |
-| Puntos de Función | 10.89 |
+| Costo total | $ |
+| Tiempo | meses |
+| Tamaño del equipo | personas |
 
----
+**Criterio de cierre:** [por ejemplo: diferencia entre mínimo y máximo menor al 15 %, o acuerdo por mayoría]
 
-## Aproximación Individual (opcional, mientras se confirma con el docente)
-
-Como aproximación parcial al espíritu del ejercicio, registro aquí dos
-estimaciones propias hechas en momentos distintos, para reflexionar sobre mi
-propia incertidumbre al estimar:
-
-**Estimación 1 (antes de revisar a fondo el sistema, con la hipótesis inicial
-de la Práctica 1):**
-
-**Estimación 2 (después de completar el análisis de esta práctica, informada
-por COCOMO y Puntos de Función):**
-
-**Reflexión Sobre La Diferencia Entre Ambas:**
-
----
-
-## Cifra Final Que Voy a Usar Para Las Siguientes Prácticas
-
-**Esfuerzo:** ______ personas-mes
-**Costo estimado:** $______ MXN
-**Justificación:**
-
----
-
-## Firma
-Myrka<3
+Esta Cifra Es La Que Se Usará Como Base del Presupuesto En La Práctica 8.

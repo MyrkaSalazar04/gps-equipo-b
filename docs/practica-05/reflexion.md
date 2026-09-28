@@ -1,5 +1,7 @@
 # Reflexión — Práctica 5: Estimación Inversa de Tamaño, Esfuerzo y Costo
 
+**Integrantes**: Myrka Salazar, Jehyson Martínez, José Martínez
+
 ## ¿Por Qué Los Dos Métodos Dieron Resultados Distintos? ¿Cuál Te Parece Más Confiable?
 
 COCOMO y Puntos de Función parten de bases completamente diferentes para medir lomismo. 
@@ -46,4 +48,6 @@ encontrar código de negocio escondido dentro de una carpeta de librería, o tab
 mal si no lo hubiera revisado con cuidado en las prácticas anteriores. 
 Estimar bien, entonces, depende tanto del método que se elige como de qué tan a fondo se investigó el producto antes de aplicarlo.
 
-Firma: Myrka<3
+Firma del Integrante: Myrka<3
+Firma del Integrante:
+Firma del Integrante:

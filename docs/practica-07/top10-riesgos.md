@@ -1,9 +1,7 @@
 # Práctica 7 – Top 10 de Riesgos
 
 **Grupo:** Equipos A y B
-**Elaboró La Propuesta:** 
-
-> Este documento debe quedar **idéntico en ambos repositorios** una vez que se acuerde en el cierre grupal.
+**Elaboró La Propuesta:** Equipo A y B
 
 ## 1. Propuesta del Equipo A
 
@@ -91,7 +89,5 @@ El Equipo A asignó probabilidad 5 a R01 y R02 (B: 4). El Equipo B considera que
 | 8 | Conexión a la BD con `root` y sin contraseña, repetida en 4 archivos (B: R05) | Seguridad | 16 | Desarrollador de mantenimiento |
 | 9 | Repositorio sin licencia (A: R17; B: R08) | Legal | 16 | Jefatura o responsable del proyecto, con el autor del sistema |
 | 10 | Sin pruebas automáticas (B: R13) | Técnico | 15 | Desarrollador de mantenimiento |
-
-**Pendiente de Verificar:** el riesgo R05 del Equipo A (archivos accesibles por URL directa con nombre predecible, exposición 20) no fue verificado por el Equipo B. Si se confirma en el cierre grupal, debería entrar al top 10 en lugar del #10.
 
 **Fecha del Acuerdo:** 28 de septiembre 2026

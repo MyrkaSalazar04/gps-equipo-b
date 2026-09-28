@@ -1,6 +1,6 @@
 # Reflexión — Práctica 4
 
-# Integrante: Myrka Salazar
+# Integrantes: Myrka Salazar, Jehyson Martínez, José Martínez
 
 ## ¿Qué Consecuencias Tiene Que La Base de Datos No Declare Llaves Foráneas?
 
@@ -28,3 +28,5 @@ Cifraríamos las contraseñas con un algoritmo de hash en vez de guardarlas como
 referencia a) las tablas `constancias` y `visitas`, que el código actual necesita pero que no existen en el volcado oficial de la base de datos.
 
 Firma del Integrante: Myrka<3
+Firma del Integrante:
+Firma del Integrante:

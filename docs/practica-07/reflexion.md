@@ -1,4 +1,6 @@
-# Reflexión — Práctica 7: Riesgos y deuda técnica
+# Reflexión — Práctica 7: Riesgos y Deuda Técnica
+
+**Integrantes:** Myrka Salazar, Jehyson Martínez, José Martínez
 
 **Sistema analizado:** Sistema de Control Escolar de Servicio Social y Residencia Profesional
 **Evidencia de apoyo:** `matriz-riesgos.xlsx`, `mapa-calor.png`, `deuda-tecnica.md`, `top10-riesgos.md`
@@ -65,4 +67,6 @@ Quien trata los datos, llamado "responsable", tiene entre otras las siguientes o
 
 **Limitaciones de Esta Recomendación:** las horas de la deuda técnica son estimaciones del analista y no incluyen funcionalidades nuevas. Además, el análisis no verificó el código a fondo (por ejemplo, el control de acceso a los archivos por URL directa, que identificó el otro equipo), por lo que la lista de riesgos podría crecer.
 
-Firma del Integrante: Myrka<3
+**Firma del Integrante:** Myrka<3
+**Firma del Integrante:**
+**Firma del Integrante:**

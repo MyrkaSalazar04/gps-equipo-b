@@ -1,4 +1,4 @@
-# Comparación: estimado vs. real — Práctica 6
+# Comparación: Estimado vs. Real — Práctica 6
 
 ## Datos del Historial de Git (Repositorio Original, Hasta El Commit `1d726bf`)
 

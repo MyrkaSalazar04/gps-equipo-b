@@ -1,6 +1,6 @@
 # Reflexión — Práctica 6
 
-**Integrantes** Myrka Salazar, Jehyson Martínez, José Martínez
+**Integrantes:** Myrka Salazar, Jehyson Martínez, José Martínez
 
 ## ¿Cuántas Personas Desarrollaron El Sistema? ¿Qué Riesgo Representa Eso Para Quien lo Adopte?
 

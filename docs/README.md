@@ -1,6 +1,6 @@
 # Análisis del Sistema de Control Escolar de Servicio Social y Residencia Profesional
 
-**Integrante:** Myrka Salazar
+**Integrantes:** Myrka Salazar, Jehyson Martínez, José Martínez
 
 ## Hipótesis Inicial (Práctica 1)
 

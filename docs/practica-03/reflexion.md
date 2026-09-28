@@ -1,6 +1,6 @@
 # Reflexión - Práctica 3
 
-**Integrante:** Myrka Salazar
+**Integrante:** Myrka Salazar, Jehyson Martínez, José Martínez
 
 ## ¿Qué Requerimientos del Proceso Real de Residencia En Su Instituto No Cubre Este Sistema?
 
@@ -22,3 +22,5 @@ equipos siguen en desacuerdo en algo que el código no aclara del todo (como una
 el personal del departamento de Servicio Social y Residencia Profesional, que son quienes conocen el proceso real, en lugar de asumir que un equipo tiene automáticamente la razón sobre el otro.
 
 Firma del Integrante: Myrka<3
+Firma del Integrante:
+Firma del Integrante:

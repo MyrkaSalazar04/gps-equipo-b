@@ -1,5 +1,7 @@
 # Reflexión — Práctica 6
 
+**Integrantes** Myrka Salazar, Jehyson Martínez, José Martínez
+
 ## ¿Cuántas Personas Desarrollaron El Sistema? ¿Qué Riesgo Representa Eso Para Quien lo Adopte?
 
 El historial de Git muestra dos nombres de autor (`cbarreral` y `Carlos Alberto Barrera Lugo`), pero por la continuidad de los commits y por ser el mismo dueño del repositorio, 
@@ -21,3 +23,5 @@ Propondría usar prefijos de tipo (`feat:`, `fix:`, `docs:`, `refactor:`), escri
 y tener el mismo nombre y correo configurados en Git (`git config user.name` y `user.email`) para que cada persona aparezca con una sola identidad.
 
 **Firma del Integrante:** Myrka<3
+**Firma del Integrante:**
+**Firma del Integrante:**

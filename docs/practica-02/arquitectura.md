@@ -1,4 +1,4 @@
-### Integrante: Myrka Salazar
+### Integrantes: Myrka Salazar, Jehyson Martínez, José Martínez
 
 ### Explicación Del Patrón MVC En El Sistema ###
 
@@ -9,12 +9,12 @@ coordinando entre el Modelo y la Vista.
 
 ## Punto de Entrada Del Sistema (index.php y .htaccess)
 
-**Lo que contiene .htaccess:**
+**Lo Que Contiene .htaccess:**
 Significa que todas las URLs que el usuario escribe en el navegador (por ejemplo sistema/usuarios/lista) se reescriben automáticamente y se 
 convierten en una petición a index.php, pasando lo que el usuario escribió como parámetro url. Es decir: no importa qué dirección visite 
 el usuario, el servidor siempre termina llamando a index.php.
 
-**Lo que contiene index.php:**
+**Lo Que Contiene index.php:**
 Carga la configuración (config/app.php). Carga (con require/require_once) todos los Modelos y Controladores del sistema, uno por uno, de forma 
 fija no los carga "bajo demanda" según lo que pida el usuario, sino todos de golpe cada vez que se recibe una petición. Carga las librerías 
 de terceros PHPMailer. Al final (líneas 44-45), Crea un objeto de la clase Plantilla (definida en Vistas/plantilla.php) y llama a su método verPlantilla(). 
@@ -27,7 +27,7 @@ index.php, gracias a la regla de .htaccess que reescribe cualquier URL hacia él
 Internamente, index.php no filtra nada por sí mismo: carga todos los Controladores y Modelos del sistema y delega la decisión de qué mostrar 
 a la clase Plantilla, que interpreta el parámetro url y arma la vista correspondiente.
 
-## Controlador (ejemplo: CarrerasC.php)
+## Controlador (Ejemplo: CarrerasC.php)
 La clase CarrerasC es el Controlador del módulo de carreras. Recibe las peticiones y coordina todo su ciclo de vida: registrar una carrera nueva, 
 consultar el listado o un registro específico, mostrar el formulario de edición, procesar la actualización cuando se envía, y eliminar un registro 
 usando el id que llega por la URL. No accede directamente a la base de datos: le pide los datos a CarrerasM y después redirige al usuario a la 

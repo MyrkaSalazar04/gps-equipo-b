@@ -7,7 +7,7 @@
 | Consultora | Consultora TecNM Solutions |
 | Director de Proyecto | Myrka Salazar |
 | Cliente | Instituto Tecnológico de Matehuala |
-| Fecha | 30 de Septiembre 2026 |
+| Fecha | Septiembre 30, 2026 |
 | Versión | 1.0 |
 
 ---
@@ -47,13 +47,13 @@ La reingeniería conserva lo que funciona (los flujos de trámites ya validados)
 - Rediseño y migración de la base de datos (esquema único, llaves foráneas, índices y diccionario de datos).
 - Corrección de las vulnerabilidades del top 10 de riesgos: gestión segura de credenciales y configuración, rotación de secretos, cifrado de contraseñas y una conexión única a la BD con usuario de privilegios mínimos.
 - Sustitución de librerías abandonadas (PHPExcel por PhpSpreadsheet) y actualización del frontend y de TCPDF y PHPMailer, administradas con Composer.
-- Control de acceso por rol para los 5 perfiles de usuario identificados en los casos de uso.
+- Control de acceso por rol para los 5 perfiles de usuario: Administrador, Alumno, Asesor Académico, Asesor Industrial y Jefe.
 - Cumplimiento de protección de datos personales: aviso de privacidad, minimización de datos, cifrado y control de acceso.
 - Depuración del repositorio: retiro de documentos personales, purga del historial (`git filter-repo`), `.gitignore`, convención de commits e integración continua básica.
 - Pruebas automatizadas con PHPUnit, documentación técnica y manual de usuario.
 - Despliegue en un ambiente de pruebas del Instituto y capacitación básica al personal usuario.
 
-**No Incluye (Queda Fuera):**
+**No incluye (Queda Fuera):**
 
 - Nuevos módulos o funciones que no existan en el sistema heredado (por ejemplo, aplicación móvil o integraciones con otros sistemas del TecNM).
 - Carga o migración de datos reales de alumnos durante el desarrollo; las pruebas usarán datos ficticios.
@@ -74,7 +74,7 @@ La reingeniería conserva lo que funciona (los flujos de trámites ya validados)
 | Empresas y dependencias receptoras | Usuarios externos | Registro ágil de convenios y visitas | Baja |
 | Consultora (Director y equipo) | Ejecutor del proyecto | Entregar en tiempo, costo y calidad acordados | Alta |
 | Mtro. Jesús Alberto Garza Ortega | Docente y evaluador académico | Que el plan cumpla los criterios de la práctica | Alta (académica) |
-| Autor del sistema original (`cbarreral` en GitHub) | Titular de derechos | Reconocimiento de autoría y autorización o licencia de uso | Media |
+| Autor del sistema original (Carlos Alberto Barrera Lugo / `cbarreral`) | Titular de derechos | Reconocimiento de autoría y autorización o licencia de uso | Media |
 
 ## 5. Supuestos
 
@@ -98,9 +98,9 @@ La reingeniería conserva lo que funciona (los flujos de trámites ya validados)
 
 ## 7. Criterios de Éxito
 
-| # | Criterio | Indicador de aceptación |
+| # | Criterio | Indicador de Aceptación |
 |---|---|---|
-| 1 | Paridad funcional | Los 12 módulos de los casos de uso operando en el sistema nuevo, con los 5 perfiles de usuario |
+| 1 | Paridad funcional | Los 12 módulos de los casos de uso operando en el sistema nuevo, con los 5 perfiles (Admin, Alumno, Asesor Académico, Asesor Industrial y Jefe) |
 | 2 | Seguridad | 0 credenciales o secretos en el código; contraseñas con hash; 0 conexiones con `root` sin contraseña |
 | 3 | Datos personales | 0 archivos con datos personales en el repositorio y en su historial; aviso de privacidad publicado |
 | 4 | Riesgos | Los 6 riesgos críticos reducidos a exposición ≤ 14; los 10 riesgos del top 10 con acción cerrada |

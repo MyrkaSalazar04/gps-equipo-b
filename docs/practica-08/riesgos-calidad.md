@@ -7,7 +7,7 @@
 | Consultora | Consultora TecNM Solutions |
 | Director | Myrka Salazar |
 | Cliente | Instituto Tecnológico de Matehuala |
-| Fecha | Septiembre 2026 |
+| Fecha | Septiembre 30, 2026 |
 | Versión | 1.1 |
 
 ---
@@ -154,5 +154,5 @@ Este es el top 10 acordado el 28 de septiembre de 2026 a partir de las propuesta
 
 | Nombre | Rol | Fecha |
 |---|---|---|
-| Myrka Salazar | Director de proyecto, Consultora TecNM Solutions | Septiembre 2026 |
+| Myrka Salazar | Director de proyecto, Consultora TecNM Solutions | Septiembre 30, 2026 |
 | Instituto Tecnológico de Matehuala | Cliente | |

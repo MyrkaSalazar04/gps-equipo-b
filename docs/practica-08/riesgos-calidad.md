@@ -12,7 +12,7 @@
 
 ---
 
-## 1. Top 10 de riesgos actualizado para el proyecto de reingeniería
+## 1. Top 10 de Riesgos Actualizado Para El Proyecto de Reingeniería
 
 Este es el top 10 acordado el 28 de septiembre de 2026 a partir de las propuestas de los Equipos A y B de la Práctica 7. Se aplicaron los criterios de desempate acordados: mayor exposición entre ambos equipos, personas antes que software y agrupación de riesgos con la misma solución. La exposición es probabilidad (P) por impacto (I), en escala de 1 a 5. Las categorías son técnico, seguridad, legal y proyecto.
 
